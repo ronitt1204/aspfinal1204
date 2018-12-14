@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7185575B-BE4C-4CDD-A92C-B5AA43F84430}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>FinalExam</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="aspfinal1204\.gitignore" />
+    <Content Include="F2018Pranks.Tests\Controllers\PranksControllerTest.cs" />
+    <Content Include="F2018Pranks.Tests\F2018Pranks.Tests.csproj" />
+    <Content Include="F2018Pranks.Tests\Properties\AssemblyInfo.cs" />
+    <Content Include="F2018Pranks\App_Start\BundleConfig.cs" />
+    <Content Include="F2018Pranks\App_Start\FilterConfig.cs" />
+    <Content Include="F2018Pranks\App_Start\IdentityConfig.cs" />
+    <Content Include="F2018Pranks\App_Start\RouteConfig.cs" />
+    <Content Include="F2018Pranks\App_Start\Startup.Auth.cs" />
+    <Content Include="F2018Pranks\App_Start\SwaggerConfig.cs" />
+    <Content Include="F2018Pranks\App_Start\WebApiConfig.cs" />
+    <Content Include="F2018Pranks\Content\bootstrap-theme.css" />
+    <Content Include="F2018Pranks\Content\bootstrap-theme.min.css" />
+    <Content Include="F2018Pranks\Content\bootstrap.css" />
+    <Content Include="F2018Pranks\Content\bootstrap.min.css" />
+    <Content Include="F2018Pranks\Content\Site.css" />
+    <Content Include="F2018Pranks\Controllers\AccountController.cs" />
+    <Content Include="F2018Pranks\Controllers\HomeController.cs" />
+    <Content Include="F2018Pranks\Controllers\ManageController.cs" />
+    <Content Include="F2018Pranks\Controllers\PranksController.cs" />
+    <Content Include="F2018Pranks\F2018Pranks.csproj" />
+    <Content Include="F2018Pranks\F2018Pranks.csproj.user" />
+    <Content Include="F2018Pranks\favicon.ico" />
+    <Content Include="F2018Pranks\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="F2018Pranks\Global.asax" />
+    <Content Include="F2018Pranks\Global.asax.cs" />
+    <Content Include="F2018Pranks\Models\AccountViewModels.cs" />
+    <Content Include="F2018Pranks\Models\DbModel.cs" />
+    <Content Include="F2018Pranks\Models\EFPrank.cs" />
+    <Content Include="F2018Pranks\Models\IdentityModels.cs" />
+    <Content Include="F2018Pranks\Models\IMockPrank.cs" />
+    <Content Include="F2018Pranks\Models\ManageViewModels.cs" />
+    <Content Include="F2018Pranks\Models\Prank.cs" />
+    <Content Include="F2018Pranks\Properties\AssemblyInfo.cs" />
+    <Content Include="F2018Pranks\Scripts\bootstrap.js" />
+    <Content Include="F2018Pranks\Scripts\bootstrap.min.js" />
+    <Content Include="F2018Pranks\Scripts\jquery-3.3.1-vsdoc.js" />
+    <Content Include="F2018Pranks\Scripts\jquery-3.3.1.js" />
+    <Content Include="F2018Pranks\Scripts\jquery-3.3.1.min.js" />
+    <Content Include="F2018Pranks\Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="F2018Pranks\Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="F2018Pranks\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="F2018Pranks\Scripts\jquery.validate.js" />
+    <Content Include="F2018Pranks\Scripts\jquery.validate.min.js" />
+    <Content Include="F2018Pranks\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="F2018Pranks\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="F2018Pranks\Scripts\modernizr-2.8.3.js" />
+    <Content Include="F2018Pranks\Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\0a\4cbfd852f7204594a9df4e76582dcd8cbd1471" />
+    <None Include=".git\objects\18\0f5335ce8cf529eb423a872862e97286caaaa8" />
+    <None Include=".git\objects\29\6269055974cb4c5b112169a3b467fcb508da39" />
+    <None Include=".git\objects\3c\36849900a2148592bd9919c9574ae96d288742" />
+    <None Include=".git\objects\4b\6b2cf4f3adb6abd303b72ac66dcf163dba3f46" />
+    <None Include=".git\objects\66\2a2a6ebce37e95e32fbca1ae2a95b906cfdf1e" />
+    <None Include=".git\objects\6a\cdfb5e4fec4db0e2c71579c2ec8750aea5f6e2" />
+    <None Include=".git\objects\6e\7d6277546c758e43523ac25de9f0179de052ae" />
+    <None Include=".git\objects\85\b8ab7548f2e3894f7f3b1318c9b3fb390b0996" />
+    <None Include=".git\objects\8b\7507618428aec421a06b8dd7ed27145b926a44" />
+    <None Include=".git\objects\94\39edd0e811346ac0f4e872d30aa0df63febc29" />
+    <None Include=".git\objects\99\c6b8eff160ba574f3c9f5e1639ce2464c49230" />
+    <None Include=".git\objects\a4\98a40c9d0c5aa893d5a9cb794336b7d976c9ff" />
+    <None Include=".git\objects\ba\d2fa291ac382663bc465e1f884e79ded4f6aac" />
+    <None Include=".git\objects\be\c30879cab2efb747801fce750d93ee895c10be" />
+    <None Include=".git\objects\cf\2d6f002e69d26dc15fcd3447b4f9bca0c6d320" />
+    <None Include=".git\objects\de\671f83c4b30de5171f98ed586a594778aaeb42" />
+    <None Include=".git\objects\df\f5c61e60dafb364b857b496e48cfdbbd43a497" />
+    <None Include=".git\objects\e0\dfb6cf315fc555df88adffba41e7ed2b334ea0" />
+    <None Include=".git\objects\f8\049da4f46d69325eaf2bc637a4873cf79def5e" />
+    <None Include=".git\objects\pack\pack-6948a0f4755ae516558944d80194972122933f9f.idx" />
+    <None Include=".git\objects\pack\pack-6948a0f4755ae516558944d80194972122933f9f.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\comp2084-f2018pranks\v15\.suo" />
+    <None Include=".vs\config\applicationhost.config" />
+    <None Include=".vs\F2018Pranks\v15\.suo" />
+    <None Include=".vs\F2018Pranks\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\F2018Pranks\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\F2018Pranks\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\F2018Pranks\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="aspfinal1204\.vs\aspfinal1204\v15\.suo" />
+    <None Include="aspfinal1204\.vs\slnx.sqlite" />
+    <None Include="aspfinal1204\.vs\VSWorkspaceState.json" />
+    <None Include="aspfinal1204\README.md" />
+    <None Include="F2018Pranks.Tests\App.config" />
+    <None Include="F2018Pranks.Tests\packages.config" />
+    <None Include="F2018Pranks\ApplicationInsights.config" />
+    <None Include="F2018Pranks\Content\bootstrap-theme.css.map" />
+    <None Include="F2018Pranks\Content\bootstrap-theme.min.css.map" />
+    <None Include="F2018Pranks\Content\bootstrap.css.map" />
+    <None Include="F2018Pranks\Content\bootstrap.min.css.map" />
+    <None Include="F2018Pranks\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="F2018Pranks\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="F2018Pranks\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="F2018Pranks\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="F2018Pranks\packages.config" />
+    <None Include="F2018Pranks\Scripts\jquery-3.3.1.min.map" />
+    <None Include="F2018Pranks\Scripts\jquery-3.3.1.slim.min.map" />
+    <None Include="F2018Pranks\Views\Account\ConfirmEmail.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ExternalLoginConfirmation.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ExternalLoginFailure.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ForgotPassword.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <None Include="F2018Pranks\Views\Account\Login.cshtml" />
+    <None Include="F2018Pranks\Views\Account\Register.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ResetPassword.cshtml" />
+    <None Include="F2018Pranks\Views\Account\ResetPasswordConfirmation.cshtml" />
+    <None Include="F2018Pranks\Views\Account\SendCode.cshtml" />
+    <None Include="F2018Pranks\Views\Account\VerifyCode.cshtml" />
+    <None Include="F2018Pranks\Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <None Include="F2018Pranks\Views\Home\Index.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\AddPhoneNumber.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\ChangePassword.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\Index.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\ManageLogins.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\SetPassword.cshtml" />
+    <None Include="F2018Pranks\Views\Manage\VerifyPhoneNumber.cshtml" />
+    <None Include="F2018Pranks\Views\Pranks\Create.cshtml" />
+    <None Include="F2018Pranks\Views\Pranks\Details.cshtml" />
+    <None Include="F2018Pranks\Views\Pranks\Index.cshtml" />
+    <None Include="F2018Pranks\Views\Shared\Error.cshtml" />
+    <None Include="F2018Pranks\Views\Shared\Lockout.cshtml" />
+    <None Include="F2018Pranks\Views\Shared\_Layout.cshtml" />
+    <None Include="F2018Pranks\Views\Shared\_LoginPartial.cshtml" />
+    <None Include="F2018Pranks\Views\Web.config" />
+    <None Include="F2018Pranks\Views\_ViewStart.cshtml" />
+    <None Include="F2018Pranks\Web.config" />
+    <None Include="F2018Pranks\Web.Debug.config" />
+    <None Include="F2018Pranks\Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\FinalExam\v15\" />
+    <Folder Include="F2018Pranks.Tests\bin\Debug\" />
+    <Folder Include="F2018Pranks.Tests\obj\Debug\TempPE\" />
+    <Folder Include="F2018Pranks\App_Data\" />
+    <Folder Include="F2018Pranks\bin\" />
+    <Folder Include="F2018Pranks\Controllers\API\" />
+    <Folder Include="F2018Pranks\obj\Debug\TempPE\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
